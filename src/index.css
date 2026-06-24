@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@keyframes beat-pulse {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.07) translateY(-2px); filter: brightness(1.2); }
+  100% { transform: scale(1); }
+}
+
+.animate-beat-pulse {
+  animation: beat-pulse 0.16s cubic-bezier(0.1, 0.8, 0.3, 1) 1;
+}
+
+body {
+  background-color: #0d0c11;
+  color: #eeeef4;
+  font-family: var(--font-sans);
+}

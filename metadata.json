@@ -1,0 +1,6 @@
+{
+  "name": "Joules Music",
+  "description": "Beginner-friendly interactive music studio featuring Groovepad-style loop pads, customized Web Audio instruments, professional microphone recording with studio vocal FX, an integrated songwriting AI lyrics helper, and a built-in music education AI coach.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
